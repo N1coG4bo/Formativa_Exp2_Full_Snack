@@ -3,6 +3,7 @@ import './App.css';
 import { Nav } from 'react-bootstrap';
 import NavbarPrincipal from './components/navbar';
 import BannerPrincipal from './components/banner';
+import informacionPrincipal from './components/informacion';
  
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div className=''>
         <NavbarPrincipal />
         <BannerPrincipal />
+        <informacionPrincipal />
       </div>
     </div>
   );
