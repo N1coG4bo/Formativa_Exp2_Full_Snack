@@ -8,7 +8,7 @@ function NavbarPrincipal() {
         <div className="row mt-3">
             <div className='col-lg-12'>
                 <>
-                    <Navbar bg="dark" data-bs-theme="dark" className="w-100">
+                    <Navbar data-bs-theme="dark" className="w-100" style={{ backgroundColor: '#002396ff' }}>
                         <Container fluid>
                             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
                             <Nav className="me-auto">

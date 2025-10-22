@@ -3,8 +3,8 @@ import './App.css';
 import { Nav } from 'react-bootstrap';
 import NavbarPrincipal from './components/navbar';
 import BannerPrincipal from './components/banner';
-import informacionPrincipal from './components/informacion';
- 
+import InformacionPrincipal from './components/informacion';
+import Productos from './components/productos';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <div className=''>
         <NavbarPrincipal />
         <BannerPrincipal />
-        <informacionPrincipal />
+        <InformacionPrincipal />
+        <Productos/>
       </div>
     </div>
   );
